@@ -1,3 +1,7 @@
+repositories {
+	mavenCentral()
+}
+
 apply plugin: 'java'
 apply plugin: 'application'
 
@@ -8,3 +12,8 @@ manifest.attributes('Main-Class':'gradlebootstrap.Main')
 
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
+
+
+dependencies {
+	testCompile 'junit:junit:4.11'
+}
