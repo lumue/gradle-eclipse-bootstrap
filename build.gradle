@@ -4,6 +4,7 @@ repositories {
 
 apply plugin: 'java'
 apply plugin: 'application'
+apply plugin: 'eclipse'
 
 version = '0.1'
 mainClassName = 'gradlebootstrap.Main'
