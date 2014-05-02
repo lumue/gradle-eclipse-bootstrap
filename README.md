@@ -30,6 +30,10 @@ set version property
 need eclipse gradle tools
 
 ###generate eclipse project files
+apply eclipse plugin
+run eclipse task
+add generated files to .gitignore
+
 
 
  
