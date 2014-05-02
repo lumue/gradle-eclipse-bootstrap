@@ -61,6 +61,12 @@ add jee7 servlet-api dependencies
 ```
 providedCompile 'javax.servlet:servlet-api:3.0.1'
 ```
+set war basename (optional)
+```
+war{
+	baseName = 'webapp'
+}
+```
 
 ###add some webcontent
 create src/main/webapp folder
@@ -68,6 +74,8 @@ create index.html
 
 ###run with jetty
 apply jetty plugin
+`gradle jettyRun`
+access app at http://localhost:8080/webapp
 
 
  

@@ -3,11 +3,11 @@ apply plugin: 'java'
 apply plugin: 'application'
 apply plugin: 'eclipse'
 apply plugin: 'war'
+apply plugin: 'jetty'
 
 //java configuration
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
-
 
 //eclipse configuration
 eclipse.project {
@@ -21,6 +21,9 @@ eclipse.classpath {
 version = '0.1'
 mainClassName = 'gradlebootstrap.Main'
 manifest.attributes('Main-Class':'gradlebootstrap.Main')
+war{
+	baseName = 'webapp'
+}
 
 //dependenciesS
 repositories {
