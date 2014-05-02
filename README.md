@@ -52,6 +52,7 @@ eclipseClasspath {
 	containers "com.springsource.sts.gradle.classpathcontainer"
 }
 ```
+
 ##add webapplication build
 
 ###configure gradle build
@@ -60,9 +61,13 @@ add jee7 servlet-api dependencies
 ```
 providedCompile 'javax.servlet:servlet-api:3.0.1'
 ```
+
 ###add some webcontent
+create src/main/webapp folder
+create index.html
 
-
+###run with jetty
+apply jetty plugin
 
 
  
