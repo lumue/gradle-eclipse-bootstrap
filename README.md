@@ -8,7 +8,7 @@ create src/test/main source folder
 add a class
 use some java 8 feature (date&time api, Clock) -> error
 set jdk version
-gradle run
+`gradle run`
 
 ###testing
 refactor to extract TimeRenderer
@@ -19,7 +19,7 @@ run test
 
 
 ###running
-java -jar build/libs/gradle-eclipse-bootstrap.jar -> error
+`java -jar build/libs/gradle-eclipse-bootstrap.jar` -> error
 add manifest attribute main-class
 
 ###distributing
@@ -31,8 +31,13 @@ need eclipse gradle tools
 
 ###generate eclipse project files
 apply eclipse plugin
-run eclipse task
+run eclipse task 
 add generated files to .gitignore
+```
+/.settings/
+/.classpath
+/.project
+```
 
 
 
