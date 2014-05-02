@@ -1,4 +1,4 @@
-#bootstrapping a eclipse wtp project with gradle
+#bootstrapping eclipse wtp project with gradle
 
 ##basic java bootstrap
 
@@ -38,6 +38,21 @@ add generated files to .gitignore
 /.classpath
 /.project
 ```
+add gradle project nature to .project file generation
+```
+eclipse.project {
+  natures 'org.springsource.ide.eclipse.gradle.core.nature'
+}
+```
+add gradle specific classpath entries
+```
+eclipseClasspath {
+	containers "com.springsource.sts.gradle.classpathcontainer"
+}
+```
+
+
+
 
 
 
