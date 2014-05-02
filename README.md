@@ -26,7 +26,10 @@ add manifest attribute main-class
 activate application plugin http://www.gradle.org/docs/current/userguide/application_plugin.html
 set version property
 
+##setup eclipse project
+need eclipse gradle tools
 
+###generate eclipse project files
 
 
  
