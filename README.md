@@ -38,6 +38,8 @@ add generated files to .gitignore
 /.classpath
 /.project
 ```
+
+###tweak generated files
 add gradle project nature to .project file generation
 ```
 eclipse.project {
