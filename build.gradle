@@ -4,6 +4,7 @@ apply plugin: 'application'
 apply plugin: 'eclipse'
 apply plugin: 'war'
 apply plugin: 'jetty'
+apply plugin: 'eclipse-wtp'
 
 //java configuration
 sourceCompatibility = '1.8'
